@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGym", "MyGym.csproj", "{F9859634-270D-4E2D-A373-5AD55FC708FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "..\Models\Models.csproj", "{E20104FC-1CE3-4FE8-B6C2-80D5ADB9AE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{0277E2FE-FD01-4306-914D-D0CCFC342AB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F9859634-270D-4E2D-A373-5AD55FC708FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9859634-270D-4E2D-A373-5AD55FC708FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9859634-270D-4E2D-A373-5AD55FC708FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20104FC-1CE3-4FE8-B6C2-80D5ADB9AE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20104FC-1CE3-4FE8-B6C2-80D5ADB9AE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20104FC-1CE3-4FE8-B6C2-80D5ADB9AE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20104FC-1CE3-4FE8-B6C2-80D5ADB9AE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0277E2FE-FD01-4306-914D-D0CCFC342AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0277E2FE-FD01-4306-914D-D0CCFC342AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0277E2FE-FD01-4306-914D-D0CCFC342AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0277E2FE-FD01-4306-914D-D0CCFC342AB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

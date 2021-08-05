@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyGym.Data
+namespace MyGym.DataAccessLayer
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5deTxEUfaFFopkv8OIICiDAkw2tA/ytDOkCtkFnuox5zZsXQ47HoG5aTw7rLvcjnOemNCqLWcMCGiguyfbqVVQ==",
+  "dgSpecHash": "KKpnKURCNueRYF2aJYA5EfRwA0KhblCiMUtmH3hvyfTFdG/jSnZvKR9cmbpZidrZLCuD2qQv6oM2/ka//8YqQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj",
+  "projectFilePath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\vivekgujari\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\vivekgujari\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\vivekgujari\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\vivek\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\vivek\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\vivek\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

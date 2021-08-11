@@ -1,0 +1,9 @@
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.deps.json
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.dll
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.pdb
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.csprojAssemblyReference.cache
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.AssemblyInfoInputs.cache
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.AssemblyInfo.cs
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.csproj.CoreCompileInputs.cache
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.dll
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.pdb

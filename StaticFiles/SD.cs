@@ -8,7 +8,7 @@ namespace StaticFiles
         public const string CustomerRole = "Customer";
         public const string TrainerRole = "Trainer";
         public const string MaintenanceRole = "Maintenance";
-        public const string Receptionist = "Reception";
+        public const string Receptionist = "Receptionist";
 
     }
 }

@@ -1,5 +1,6 @@
 ﻿@page
 @model RegisterModel
+@using StaticFiles
 @{
     ViewData["Title"] = "Register";
 }
@@ -8,10 +9,55 @@
 
 <form method="post" asp-route-returnUrl="@Model.ReturnUrl" autocomplete="off">
     <div class="py-4 my-4">
-    <div asp-validation-summary="All" class="text-danger"></div>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="row form-group">
         <div class="col-8 offset-2">
-
+            <div class="card">
+                <div class="card-body px-lg-5 pt-4">
+                    <h3 class="col-12 text-success text-center py-4"><strong>Sign Up</strong></h3>
+                    <hr />
+                    <div class="form-row py-2">
+                        <div class="col">
+                            <div>
+                                <input type="text" asp-for="Input.First_Name" placeholder="First Name" class="form-control" />
+                                <span asp-validation-for="Input.First_Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <input type="text" asp-for="Input.Last_Name" placeholder="Last Name" class="form-control" />
+                                <span asp-validation-for="Input.Last_Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row py-2">
+                        <input type="text" asp-for="Input.Email" autocomplete="off" placeholder="Email" class="form-control" />
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-row py-2">
+                        <input type="password" asp-for="Input.Password" autocomplete="off" placeholder="Password" class="form-control" />
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-row py-2">
+                        <input type="password" asp-for="Input.ConfirmPassword" autocomplete="off" placeholder="Confirm Password" class="form-control" />
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+                    <div class="py-2">
+                        <input type="radio" name="rdUserRole" value="@SD.ManagerRole" /> @SD.ManagerRole
+                        <input type="radio" name="rdUserRole" value="@SD.CustomerRole" /> @SD.CustomerRole
+                        <input type="radio" name="rdUserRole" value="@SD.TrainerRole" /> @SD.TrainerRole
+                        <input type="radio" name="rdUserRole" value="@SD.MaintenanceRole" /> @SD.MaintenanceRole
+                        <input type="radio" name="rdUserRole" value="@SD.Receptionist" /> @SD.Receptionist
+                    </div>
+                    <div class="py-2">
+                        <button type="submit" class="btn btn-success form-control">Register</button>
+                    </div>
+                    <hr/>
+                    <p>
+                        By clicking <em>Register</em> you agree to our <a href="" target="_blank">terms of service</a>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
     </div>
@@ -20,37 +66,6 @@
 
 <div class="row">
     <div class="col-md-4">
-        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h4>Create a new account.</h4>
-            <hr />
-            <div asp-validation-summary="All" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Input.First_Name"></label>
-                <input asp-for="Input.First_Name" class="form-control" />
-                <span asp-validation-for="Input.First_Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Last_Name"></label>
-                <input asp-for="Input.Last_Name" class="form-control" />
-                <span asp-validation-for="Input.Last_Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Email"></label>
-                <input asp-for="Input.Email" class="form-control" />
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.Password"></label>
-                <input asp-for="Input.Password" class="form-control" />
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Input.ConfirmPassword"></label>
-                <input asp-for="Input.ConfirmPassword" class="form-control" />
-                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-            </div>
-            <button type="submit" class="btn btn-primary">Register</button>
-        </form>
     </div>
     <div class="col-md-6 col-md-offset-2">
         <section>

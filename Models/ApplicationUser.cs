@@ -6,9 +6,10 @@ namespace Models
 {
     public class ApplicationUser : IdentityUser
     {
-        [Display(Name = "Full Name" )]
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        
+        [Display(Name ="First Name")]
+        public string First_Name { get; set; }
+        [Display(Name = "Last Name")]
+        public string Last_Name { get; set; }
+
     }
 }

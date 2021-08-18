@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VoVdewnEv6E3QZ+lZnmCRvlYs8cc5t5ASe4ZfcaHoKMXN/1bz4CKf06Z6cSqpDHL7NX3W9x+SuuqgsGB7TOa0A==",
+  "dgSpecHash": "Y1Jbncf4gScL4iKWJSaLnOeesD/aQOR5rIJTW+OaqkGSUEoKFa5ueFHZZa8OV7Dl/P1LBZE5C6Okk67+XqOtaA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\MyGym\\MyGym.csproj",
   "expectedPackageFiles": [
@@ -92,7 +92,7 @@
     "C:\\Users\\vivekgujari\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Users\\vivekgujari\\.nuget\\packages\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Users\\vivekgujari\\.nuget\\packages\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
-    "C:\\Users\\vivekgujari\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\vivekgujari\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\vivekgujari\\.nuget\\packages\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\vivekgujari\\.nuget\\packages\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\vivekgujari\\.nuget\\packages\\system.composition\\1.0.31\\system.composition.1.0.31.nupkg.sha512",

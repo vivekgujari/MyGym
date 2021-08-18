@@ -10,10 +10,12 @@ namespace DataAccessLayer.Data.Repository
     {
         private readonly ApplicationDbContext _db;
         public ICustomerRepository Customer { get; set; }
+        public IApplicationUserRepository ApplicationUser{ get; set; }
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Customer = new CustomerRepository(_db);
+            ApplicationUser = new ApplicationUserRepository(_db);
         }
         public void Dispose()
         {

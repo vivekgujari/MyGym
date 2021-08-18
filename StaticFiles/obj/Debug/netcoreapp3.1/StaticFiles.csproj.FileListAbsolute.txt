@@ -7,3 +7,12 @@ C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreap
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.csproj.CoreCompileInputs.cache
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.dll
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.pdb
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.deps.json
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.dll
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\bin\Debug\netcoreapp3.1\StaticFiles.pdb
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.csprojAssemblyReference.cache
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.AssemblyInfoInputs.cache
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.AssemblyInfo.cs
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.csproj.CoreCompileInputs.cache
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.dll
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\StaticFiles\obj\Debug\netcoreapp3.1\StaticFiles.pdb

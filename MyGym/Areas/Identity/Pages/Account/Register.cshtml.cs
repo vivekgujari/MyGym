@@ -13,6 +13,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using Models;
+using StaticFiles;
 
 namespace MyGym.Areas.Identity.Pages.Account
 {
@@ -77,14 +79,54 @@ namespace MyGym.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
+            string role = Request.Form["rdUserRole"].ToString();
+
             returnUrl = returnUrl ?? Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new ApplicationUser
+                {
+                    UserName = Input.Email,
+                    Email = Input.Email,
+                    First_Name = Input.First_Name,
+                    Last_Name = Input.Last_Name
+                };
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
+
+                if (!await _roleManager.RoleExistsAsync(SD.ManagerRole))
+                {
+                    _roleManager.CreateAsync(new IdentityRole(SD.ManagerRole)).GetAwaiter().GetResult();
+                    _roleManager.CreateAsync(new IdentityRole(SD.CustomerRole)).GetAwaiter().GetResult();
+                    _roleManager.CreateAsync(new IdentityRole(SD.MaintenanceRole)).GetAwaiter().GetResult();
+                    _roleManager.CreateAsync(new IdentityRole(SD.TrainerRole)).GetAwaiter().GetResult();
+                    _roleManager.CreateAsync(new IdentityRole(SD.Receptionist)).GetAwaiter().GetResult();
+                }
+
                 if (result.Succeeded)
                 {
+                    if (role == SD.CustomerRole)
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.CustomerRole);
+                    }
+                    else if (role == SD.MaintenanceRole)
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.MaintenanceRole);
+                    }
+                    else if (role == SD.ManagerRole)
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.ManagerRole);
+                    }
+                    else if (role == SD.TrainerRole)
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.TrainerRole);
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, SD.Receptionist);
+                    }
+
                     _logger.LogInformation("User created a new account with password.");
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

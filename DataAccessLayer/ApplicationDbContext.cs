@@ -14,5 +14,6 @@ namespace MyGym.DataAccessLayer
         {
         }
         public DbSet<Customer> Customer { get; set; }
+        public DbSet<ApplicationUser> ApplicationUser { get; set; }
     }
 }

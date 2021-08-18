@@ -10,8 +10,8 @@ using MyGym.DataAccessLayer;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210816233755_AddedApplicationUser_IdentityUser")]
-    partial class AddedApplicationUser_IdentityUser
+    [Migration("20210818060545_AddedApplicationUserAgain")]
+    partial class AddedApplicationUserAgain
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -290,10 +290,10 @@ namespace DataAccessLayer.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<string>("FirstName")
+                    b.Property<string>("First_Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("LastName")
+                    b.Property<string>("Last_Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");

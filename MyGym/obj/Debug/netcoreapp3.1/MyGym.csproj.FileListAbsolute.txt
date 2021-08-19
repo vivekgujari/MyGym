@@ -221,7 +221,6 @@ C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\M
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -936,3 +935,4 @@ C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\MyGym\obj\Debug\netcor
 C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\MyGym\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\MyGym\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\MyGym\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\vivek\Desktop\Solutions\MyGym_git_repos\MyGym\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll

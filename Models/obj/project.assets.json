@@ -812,25 +812,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vivekgujari\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\vivek\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\vivekgujari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\obj\\",
+      "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\vivekgujari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\vivek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -841,6 +836,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -852,6 +848,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -873,7 +870,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

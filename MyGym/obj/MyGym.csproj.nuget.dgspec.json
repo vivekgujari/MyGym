@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\MyGym\\MyGym.csproj": {}
+    "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\MyGym\\MyGym.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\vivekgujari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vivekgujari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vivek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,9 +26,10 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj"
+              "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj"
               }
             }
           }
@@ -45,6 +42,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -77,26 +75,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj": {
+    "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\vivekgujari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\obj\\",
+        "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vivekgujari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vivek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -107,6 +101,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -118,6 +113,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
@@ -139,26 +135,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\MyGym\\MyGym.csproj": {
+    "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\MyGym\\MyGym.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\MyGym\\MyGym.csproj",
+        "projectUniqueName": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\MyGym\\MyGym.csproj",
         "projectName": "MyGym",
-        "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\MyGym\\MyGym.csproj",
-        "packagesPath": "C:\\Users\\vivekgujari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\MyGym\\obj\\",
+        "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\MyGym\\MyGym.csproj",
+        "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\MyGym\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vivekgujari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vivek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -169,15 +161,16 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj"
+              "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\DataAccessLayer\\DataAccessLayer.csproj"
               },
-              "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\Models\\Models.csproj"
+              "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\Models\\Models.csproj"
               },
-              "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj": {
-                "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj"
+              "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj": {
+                "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj"
               }
             }
           }
@@ -190,6 +183,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -238,26 +232,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj": {
+    "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj",
+        "projectUniqueName": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj",
         "projectName": "StaticFiles",
-        "projectPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj",
-        "packagesPath": "C:\\Users\\vivekgujari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vivekgujari\\Desktop\\ASP.NET Core\\MyGym_git_repos\\StaticFiles\\obj\\",
+        "projectPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\StaticFiles\\StaticFiles.csproj",
+        "packagesPath": "C:\\Users\\vivek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vivek\\Desktop\\Solutions\\MyGym_git_repos\\StaticFiles\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vivekgujari\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\vivek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -268,6 +258,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -279,6 +270,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
@@ -303,7 +295,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

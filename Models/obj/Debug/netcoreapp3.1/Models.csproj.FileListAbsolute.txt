@@ -6,3 +6,4 @@ C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\Models\bin\Debug\netco
 C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
 C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\Models\obj\Debug\netcoreapp3.1\Models.dll
 C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\Models\obj\Debug\netcoreapp3.1\Models.pdb
+C:\Users\vivekgujari\Desktop\ASP.NET Core\MyGym_git_repos\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
